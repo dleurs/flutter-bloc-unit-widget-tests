@@ -4,6 +4,10 @@
 Using <strong>bloc_test package </strong><br/>
 
 On VSCode, click on Run inside /test/test_counter_bloc.dart, near main(), to launch bloc tests<br/>
+You can also launch from terminal, a faster option :
+```bash
+flutter test test/test_counter_bloc.dart 
+```
 ![Run Button](/assets/RunButton.png)<br/>
 
 See below successful logs<br/>
@@ -13,9 +17,11 @@ See below successful logs<br/>
 If I change to an unexpected value for the result of the test, like 0 to 1 when initializing CounterBloc()
 ![Run Button](/assets/TestError.png)<br/>
 
-
+Logs
 ![Run Button](/assets/LogsInCaseOfError.png)<br/>
 
+Logs from terminal using flutter test test/test_counter_bloc.dart.
+![Run Button](/assets/LogsTerminal.png)<br/>
 
 Difficulties :
 - InitialCounterState seems to not be create when CounterBloc()
