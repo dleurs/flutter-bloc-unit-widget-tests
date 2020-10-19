@@ -9,6 +9,14 @@ On VSCode, click on Run inside /test/test_counter_bloc.dart, near main(), to lau
 See below successful logs<br/>
 ![Logs In Case Of Success](/assets/LogsInCaseOfSuccess.png)<br/>
 
+
+If I change to an unexpected value for the result of the test, like 0 to 1 when initializing CounterBloc()
+![Run Button](/assets/TestError.png)<br/>
+
+
+![Run Button](/assets/LogsInCaseOfError.png)<br/>
+
+
 Difficulties :
 - InitialCounterState seems to not be create when CounterBloc()
 - flutter test does not launch test_counter_bloc.dart
