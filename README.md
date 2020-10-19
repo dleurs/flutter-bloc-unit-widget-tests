@@ -1,16 +1,24 @@
-# cicd_gitlab_fastlane
+# Flutter CICD with test package (unit and widget tests), BLoC pattern, Gitlab and FastLane
+![Counter App](/assets/CounterApp.png)<br/>
 
-A new Flutter project.
+Using bloc_test package <br/>
+Click on Run inside /test/test_counter_bloc.dart, near main(), to launch bloc tests<br/>
+![Run Button](/assets/RunButton.png)<br/>
 
-## Getting Started
+See below successful logs<br/>
+![Logs In Case Of Success](/assets/LogsInCaseOfSuccess.png)<br/>
 
-This project is a starting point for a Flutter application.
+Difficulties :
+- InitialCounterState seems to not be create when CounterBloc()
+- flutter test does not launch test_counter_bloc.dart
 
-A few resources to get you started if this is your first Flutter project:
+Documentation :<br/>
+https://pub.dev/packages/bloc_test/example
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://github.com/felangel/bloc/tree/master/packages/bloc_test
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://medium.com/flutter-community/unit-testing-with-bloc-b94de9655d86
+
+https://www.youtube.com/watch?v=S6jFBiiP0Mc
+
+https://pub.dev/packages/bloc_test
