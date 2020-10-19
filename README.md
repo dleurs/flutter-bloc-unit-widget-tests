@@ -1,8 +1,9 @@
 # Flutter CICD with test package (unit and widget tests), BLoC pattern, Gitlab and FastLane
 ![Counter App](/assets/CounterApp.png)<br/>
 
-Using bloc_test package <br/>
-Click on Run inside /test/test_counter_bloc.dart, near main(), to launch bloc tests<br/>
+Using <strong>bloc_test package </strong><br/>
+
+On VSCode, click on Run inside /test/test_counter_bloc.dart, near main(), to launch bloc tests<br/>
 ![Run Button](/assets/RunButton.png)<br/>
 
 See below successful logs<br/>
