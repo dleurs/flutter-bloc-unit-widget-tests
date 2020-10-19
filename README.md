@@ -11,6 +11,10 @@ See below successful logs<br/>
 Difficulties :
 - InitialCounterState seems to not be create when CounterBloc()
 - flutter test does not launch test_counter_bloc.dart
+- Why creating a mock :
+```dart
+class MockCounterBloc extends MockBloc<CounterState> implements CounterBloc {}
+```
 
 Documentation :<br/>
 https://pub.dev/packages/bloc_test/example

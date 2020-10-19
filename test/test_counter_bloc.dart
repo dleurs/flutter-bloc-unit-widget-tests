@@ -4,7 +4,7 @@ import 'package:cicd_gitlab_fastlane/bloc/counter/counter_event.dart';
 import 'package:cicd_gitlab_fastlane/bloc/counter/counter_state.dart';
 import 'package:test/test.dart';
 
-class MockCounterBloc extends MockBloc<CounterState> implements CounterBloc {}
+//class MockCounterBloc extends MockBloc<CounterState> implements CounterBloc {}
 
 void main() {
   group('CounterBloc', () {
